@@ -8,13 +8,13 @@ body {
   font-family: Arial, Verdana, sans-serif;
   font-size: calc(1em * .625);
   color: #4d4d4d;
-  background-color: #f5eee7;
+  background-color: #f0e5cf;
 }
 body {
   font-size: 1.4em;
 }
 .wrapper {
-  width: 980px;
+  width: 860px;
   margin: 0 auto;
 }
 .uppercase {
@@ -38,6 +38,9 @@ h1 {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+a {
+    color: #4d4d4d;
 }
 .table {
   display: table;
@@ -114,6 +117,9 @@ section:before {
 main h1 {
   font-size: 2.5em;
 }
+#presentation img {
+    margin: auto;
+}
 #calendrier div {
   margin-bottom: 1em;
 }
@@ -137,8 +143,21 @@ main h1 {
 }
 #contact a {
   display: block;
-  margin-bottom: 1em;    
-  color: #4d4d4d;
+  margin-bottom: 1em;  
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background:  url(../img/arrow.svg) 0 0 no-repeat;
+    -webkit-background-size: 32px;
+    background-size: 32px;
+    text-indent: -9999px;
+    transform: rotate(90deg)
 }
 
 @media screen and (max-width: 62rem) {
